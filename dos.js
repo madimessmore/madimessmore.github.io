@@ -27,4 +27,4 @@ function newWorkout() {
     var randomNumber8 = Math.floor(Math.random()*(exercises.length));
     var randomNumber9 = Math.floor(Math.random()*(exercises.length));
     var randomNumber10 = Math.floor(Math.random()*(exercises.length));
-    document.getElementById('workoutDisplay').innerHTML = exercises[randomNumber1] + '/n' + exercises[randomNumber2] + '/n' + exercises[randomNumber3] + '/n' +  exercises[randomNumber4] + '/n' +  exercises[randomNumber5] + '/n' +  exercises[randomNumber6] + '/n' +  exercises[randomNumber7] + '/n' +  exercises[randomNumber8] + '/n' +  exercises[randomNumber9] + '/n' +  exercises[randomNumber10];
+    document.getElementById('workoutDisplay').innerHTML = exercises[randomNumber1] + '\n' + exercises[randomNumber2] + '\n' + exercises[randomNumber3] + '\n' +  exercises[randomNumber4] + '\n' +  exercises[randomNumber5] + '\n' +  exercises[randomNumber6] + '\n' +  exercises[randomNumber7] + '\n' +  exercises[randomNumber8] + '\n' +  exercises[randomNumber9] + '\n' +  exercises[randomNumber10];
