@@ -1,5 +1,4 @@
 .masthead {
-    display: table;
     width: 100%;
     height: auto;
     text-align: center;
@@ -8,13 +7,9 @@
     background-size: cover;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
-}
 
 body {
     font-family: Lora,Helvetica Neue,Helvetica,Arial,sans-serif;
-    position: relative;
     color: #fff;
     background-color: #000;
 }
@@ -92,6 +87,7 @@ header {
 
 nav {
     height: 30px;
+    background-color: darkslategray;
 }
 
 footer {
@@ -100,4 +96,53 @@ footer {
     color: palegreen;
     text-align: center;
     margin-top: 0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table {
+    border-spacing: 5px;
+    display: block;
+    width:70%;
+    margin-left:30%;
+    margin-right:15%;
+}
+
+th {
+    margin: 20px;
+    width: 350px;
+    font-size: 24px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    margin-left: 50px;
+    font-color: white;
+    text-decoration: none;
+}
+a:link:active, a:visited:active {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: hotpink;
 }
