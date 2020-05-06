@@ -1,18 +1,18 @@
 var exercises = [
-    '60 seconds front plank',
-    '45 seconds side plank both sides',
-    '30 crunches',
-    '15 situps',
-    '20 toe touches',
-    '30 jumping jacks',
-    '30 Russian twists',
-    '15 leg raises',
-    '5x10 second flutter kicks',
-    '40 inverse crunches',
-    '30 second raised leg circles',
-    '60 second hi-lo plank',
-    '30 squats',
-    '20 lunges each leg',
+    'seconds front plank',
+    'seconds side plank both sides',
+    'crunches',
+    'situps',
+    'toe touches',
+    'jumping jacks',
+    'Russian twists',
+    'leg raises',
+    'seconds flutter kicks',
+    'inverse crunches',
+    'second raised leg circles',
+    'second hi-lo plank',
+    'squats',
+    'lunges each leg',
 
 ]
 
@@ -37,4 +37,35 @@ function newWorkout() {
     document.getElementById('workoutDisplay8').innerHTML = exercises[randomNumber8]
     document.getElementById('workoutDisplay9').innerHTML = exercises[randomNumber9]
     document.getElementById('workoutDisplay10').innerHTML = exercises[randomNumber10]
+}
+
+var Duration = [
+    '10',
+    '15',
+    '30',
+    '45',
+    '60'
+]
+
+function newDuration() {
+    var randomDuration1 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration2 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration3 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration4 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration5 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration6 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration7 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration8 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration9 = Math.floor(Math.random()*(Duration.length));
+    var randomDuration10 = Math.floor(Math.random()*(Duration.length));
+    document.getElementById('durationDisplay').innerHTML = Duration[randomDuration1]
+    document.getElementById('durationDisplay2').innerHTML = Duration[randomDuration2]
+    document.getElementById('durationDisplay3').innerHTML = Duration[randomDuration3]
+    document.getElementById('durationDisplay4').innerHTML = Duration[randomDuration4]
+    document.getElementById('durationDisplay5').innerHTML = Duration[randomDuration5]
+    document.getElementById('durationDisplay6').innerHTML = Duration[randomDuration6]
+    document.getElementById('durationDisplay7').innerHTML = Duration[randomDuration7]
+    document.getElementById('durationDisplay8').innerHTML = Duration[randomDuration8]
+    document.getElementById('durationDisplay9').innerHTML = Duration[randomDuration9]
+    document.getElementById('durationDisplay10').innerHTML = Duration[randomDuration10]
 }
