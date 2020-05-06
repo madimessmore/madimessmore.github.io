@@ -3,7 +3,7 @@
     height: auto;
     text-align: center;
     color: #fff;
-    background-color: #000;
+    background-image: linear-gradient(to bottom right, #747e91, #2f394f);
     background-size: cover;
 }
 
@@ -11,7 +11,7 @@
 body {
     font-family: Lora,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #000;
+    background-image: linear-gradient(to bottom right, #747e91, #2f394f);
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #000;
+    background-image: linear-gradient(to bottom right, #747e91, #2f394f);
 }
 
 html {
@@ -30,7 +30,7 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-    background-color: black;
+    linear-gradient(to bottom right, #747e91, #2f394f)
 }
 
 ul {
@@ -43,45 +43,35 @@ header {
 }
 
 #workoutDisplay {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 
 #workoutDisplay2 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 #workoutDisplay3 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 #workoutDisplay4 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 
 }
 #workoutDisplay5 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 #workoutDisplay6 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 #workoutDisplay7 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 #workoutDisplay8 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 #workoutDisplay9 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 #workoutDisplay10 {
-    background-color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
 }
 
@@ -91,7 +81,6 @@ nav {
 }
 
 footer {
-    background-color: black;
     width: auto;
     color: palegreen;
     text-align: center;
@@ -110,15 +99,15 @@ th, td {
 table {
     border-spacing: 5px;
     display: block;
-    width:70%;
-    margin-left:30%;
-    margin-right:15%;
+    width:50%;
+    margin-left:25%;
 }
 
 th {
     margin: 20px;
     width: 350px;
     font-size: 24px;
+    text-align: center;
 }
 
 button {
@@ -145,4 +134,9 @@ a:link {
 
 a:hover {
     color: hotpink;
+}
+
+td {
+    text-align: center;
+    height: 25px;
 }
