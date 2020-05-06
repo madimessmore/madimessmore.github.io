@@ -2,7 +2,6 @@
     display: table;
     width: 100%;
     height: auto;
-    padding: 200px 0;
     text-align: center;
     color: #fff;
     background-color: #000;
@@ -28,7 +27,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: #000;
 }
 
 html {
@@ -36,12 +35,69 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+    background-color: black;
+}
+
+ul {
+    margin-left: 30%;
+    text-align: left;
+}
+
+header {
+    margin-bottom: 0px;
 }
 
 #workoutDisplay {
     background-color: rgba(0, 0, 0, 0.56);
-    height: 62px;
-    padding-top: 14px;
     font-size: 16px;
-    line-height: 1.5;
+}
+
+#workoutDisplay2 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+#workoutDisplay3 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+#workoutDisplay4 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+
+}
+#workoutDisplay5 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+#workoutDisplay6 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+#workoutDisplay7 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+#workoutDisplay8 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+#workoutDisplay9 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+#workoutDisplay10 {
+    background-color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+}
+
+nav {
+    height: 30px;
+}
+
+footer {
+    background-color: black;
+    width: auto;
+    color: palegreen;
+    text-align: center;
+    margin-top: 0;
 }
