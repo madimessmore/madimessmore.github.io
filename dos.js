@@ -27,4 +27,14 @@ function newWorkout() {
     var randomNumber8 = Math.floor(Math.random()*(exercises.length));
     var randomNumber9 = Math.floor(Math.random()*(exercises.length));
     var randomNumber10 = Math.floor(Math.random()*(exercises.length));
-    document.getElementById('workoutDisplay').innerHTML = exercises[randomNumber1] + '\n' + exercises[randomNumber2] + '\n' + exercises[randomNumber3] + '\n' +  exercises[randomNumber4] + '\n' +  exercises[randomNumber5] + '\n' +  exercises[randomNumber6] + '\n' +  exercises[randomNumber7] + '\n' +  exercises[randomNumber8] + '\n' +  exercises[randomNumber9] + '\n' +  exercises[randomNumber10];
+    document.getElementById('workoutDisplay').innerHTML = exercises[randomNumber1]
+    document.getElementById('workoutDisplay2').innerHTML = exercises[randomNumber2]
+    document.getElementById('workoutDisplay3').innerHTML = exercises[randomNumber3]
+    document.getElementById('workoutDisplay4').innerHTML = exercises[randomNumber4]
+    document.getElementById('workoutDisplay5').innerHTML = exercises[randomNumber5]
+    document.getElementById('workoutDisplay6').innerHTML = exercises[randomNumber6]
+    document.getElementById('workoutDisplay7').innerHTML = exercises[randomNumber7]
+    document.getElementById('workoutDisplay8').innerHTML = exercises[randomNumber8]
+    document.getElementById('workoutDisplay9').innerHTML = exercises[randomNumber9]
+    document.getElementById('workoutDisplay10').innerHTML = exercises[randomNumber10]
+}
