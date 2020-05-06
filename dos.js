@@ -13,7 +13,29 @@ var exercises = [
     'second hi-lo plank',
     'squats',
     'lunges each leg',
-
+    'pushups',
+    'burpees',
+    'mountain climbers',
+    'bicycle crunches',
+    'bridge',
+    'high knees',
+    'butt kicks',
+    'side lunges',
+    'seconds wall sit',
+    'arm circles',
+    'v-ups',
+    'sumo squats',
+    'squat kicks',
+    'squat jumps',
+    'tuck jumps',
+    'cross body mountain climbers',
+    'low jacks',
+    'military push-ups',
+    'wide pushups',
+    'supermans',
+    'scissor kicks',
+    'seconds single leg wall sit',
+    'chair dips'
 ]
 
 function newWorkout() {
