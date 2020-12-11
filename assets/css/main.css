@@ -1,5 +1,7 @@
 #block {
-  margin-topo: 3px;
-  margin-bottom: 3px;
+  margin-topo: 8px;
+  margin-bottom: 8px;
   background-color: #111214;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
